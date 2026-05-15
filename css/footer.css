@@ -5,7 +5,10 @@
 }
 .footer .container {
   display: flex;
-  flex-flow: column;
+}
+.footer-logo-text {
+  display: flex;
+  flex-direction: column;
 }
 .logo-web-f {
   font-family: "Raleway", sans-serif;
@@ -31,4 +34,22 @@
   max-width: 264px;
   padding-top: 16px;
   color: #f4f4fd;
+}
+.footer-socials {
+  display: flex;
+  flex-direction: column;
+  padding-left: 120px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer-social-list {
+  display: flex;
+  max-width: 208px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
 }

@@ -11,7 +11,7 @@
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  margin: 8px 0;
 }
 
 .features {
@@ -26,4 +26,14 @@
 
 .features-items {
   flex-basis: calc((100% - 72px) / 4);
+}
+.features-decoration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 264px;
+  height: 122px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
 }

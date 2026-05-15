@@ -2,12 +2,18 @@
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image:
+    linear-gradient(to top, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .hero .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #2e2f42;
 }
 .header-1 {
   color: #ffffff;
@@ -33,7 +39,11 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .button:hover,
 .button:focus {
   background-color: #404bbf;
