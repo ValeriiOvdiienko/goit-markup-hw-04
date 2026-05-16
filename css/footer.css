@@ -48,8 +48,29 @@
 .footer-social-list {
   display: flex;
   max-width: 208px;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   gap: 16px;
   margin-top: 16px;
+}
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-social-svg {
+  fill: #f4f4fd;
 }
